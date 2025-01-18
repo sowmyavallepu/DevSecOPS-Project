@@ -35,4 +35,9 @@ To set up a free Azure cloud account for hosting resources required for your Dev
 ![verify](https://github.com/user-attachments/assets/8876b9f1-f38d-4b8c-ba27-db97f2578af8)
 
 
+### 6. Provide Payment Information
+- Enter your **credit card details**. 
+  - **Note:** You won’t be charged during the free trial period, but Microsoft requires this information for verification purposes.
+
+![card-2](https://github.com/user-attachments/assets/54d06db4-c7a0-466d-ba16-902b9440b557)
 
