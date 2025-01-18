@@ -71,4 +71,3 @@ Ensure the following prerequisites are met:
 - **Deployment:** Deploy to AKS using ArgoCD.
 ## 🗂️Modules
 # Module 1: DevSecOps Case Study and Prerequisites
-
