@@ -59,7 +59,7 @@ Ensure the following prerequisites are met:
 **Grype for Container Security**
 
 ## 🏗️ Pipeline Architecture
-
+! [Alt text](https://github.com/sowmyavallepu/DevSecOPS-Project/blob/main/Screenshot%20(3).png)
 
 
 
