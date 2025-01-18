@@ -61,5 +61,5 @@ Ensure the following prerequisites are met:
 ## 🏗️ Pipeline Architecture
 
 
-![Alt text](C:\Users\vsowm\OneDrive\Pictures\Screenshots\Screenshot (3).png)
+
 
