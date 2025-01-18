@@ -18,3 +18,6 @@ To set up a free Azure cloud account for hosting resources required for your Dev
 ### 3. Sign In or Create a Microsoft Account
 - **If you already have a Microsoft account**: Sign in using your existing credentials.
 - **If you don't have an account**: Click **Create one** to set up a new Microsoft account.
+
+![image](https://github.com/user-attachments/assets/bb1628bb-d591-4cee-823c-a11b2a707c10)
+
