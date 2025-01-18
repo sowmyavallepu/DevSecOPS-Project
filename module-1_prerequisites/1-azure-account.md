@@ -41,3 +41,26 @@ To set up a free Azure cloud account for hosting resources required for your Dev
 
 ![card-2](https://github.com/user-attachments/assets/54d06db4-c7a0-466d-ba16-902b9440b557)
 
+### 7. Accept Terms and Conditions
+- Review and accept the terms and conditions by checking the box and clicking **Sign up**.
+
+### 8. Complete the Setup
+- After completing the setup process, you will receive a confirmation that your Azure account has been created. 
+- You will also be given a **$200 credit** for the first 30 days to explore Azure services.
+
+### 9. Access the Azure Portal
+- Once your account is ready, click on **Go to the Azure Portal** to access your new Azure account dashboard.
+
+---
+
+## 🔗 Additional Resources
+For detailed information about the free trial, follow this link:
+- [How to Add a Trial Subscription to Your Azure Account](https://techcommunity.microsoft.com/t5/startups-at-microsoft/how-to-add-a-trial-subscription-to-your-azure-account-step-by/ba-p/3792372)
+
+---
+
+## ✅ Conclusion:
+This concludes **Step 1** of setting up your DevSecOps pipeline. Once your Azure account is ready, you can proceed to the next steps in your project.
+
+---
+
