@@ -32,4 +32,5 @@ Ensure the following prerequisites are met:
 - **Azure Account:** An active Azure account (free or paid). Sign up [here](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account?icid=azurefreeaccount) .
 - **Azure Kubernetes Service (AKS):** Knowledge of Kubernetes in Azure.
 - **Docker Hub Account:** For managing container images.
-- **Docker CLI:** Installed on your local machine.
+- **Docker CLI:** Installed on your local machine. [Get Docker CLI Here](https://www.docker.com/products/docker-desktop/).
+
