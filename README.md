@@ -29,6 +29,6 @@ This project focuses on building a secure, automated DevSecOps pipeline to strea
 ## 📝 Project Prerequisties
 Ensure the following prerequisites are met:
 
-** Azure Account:** An active Azure account (free or paid). Sign up[here](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account?icid=azurefreeaccount)
+** Azure Account:** An active Azure account (free or paid). Sign up [here](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account?icid=azurefreeaccount) .
 
 
