@@ -4,19 +4,6 @@ Designing and implementing a robust DevSecOps pipeline to ensure the security, s
 "Integrating security at every stage of the pipeline, from code development to deployment, to safeguard the Super Mario game against potential vulnerabilities.
 # Table Of Contents
 1. Project Overview and Objectives #project-overview-and-objectives
-2. Required Tools and Technologies
-3. Required Tools and Technologies
-4. Project Scope and Goals
-5. DevSecOps Pipeline Design
-6. Detailed Implementation Process
-7. Repository Cloning and Setuu
-8. GitHub Actions Configuration
-9. SonarQube Setup for Static Application Security Testing (SAST)
-10. Containerizing the Mario Game with Docker
-11. Dynamic Tagging and Version Control Implementation
-12. Deployment to Azure Kubernetes Service (AKS) Using ArgoCD
-13. End-to-End Pipeline Validation and Testing
-14. Summary and Key Takeaways 
 
 ## 🎮Project Overview and Objectives
 Secure DevSecOPS Pipeline for Infinite Mario Game
