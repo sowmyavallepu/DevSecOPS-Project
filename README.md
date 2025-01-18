@@ -60,5 +60,8 @@ Ensure the following prerequisites are met:
 
 ## 🏗️ Pipeline Architecture
 
+https://github.com/sowmyavallepu/DevSecOPS-Project/blob/af5f3afc552ed6117cf2268a3358e0bfb5b5f6d8/Screenshot%20(3).png
+
+
 
 
