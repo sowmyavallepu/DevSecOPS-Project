@@ -11,6 +11,10 @@ To set up a free Azure cloud account for hosting resources required for your Dev
 
 ![image](https://github.com/sowmyavallepu/DevSecOPS-Project/blob/f9f0dd977273a95d0bf3e4eb9388f8482a088b92/Screenshot%20(5).png)
 
+### 2. Start Free Trial
+- Click on the **Start Free** button to begin the process. This will redirect you to the signup page.
 
 
-
+### 3. Sign In or Create a Microsoft Account
+- **If you already have a Microsoft account**: Sign in using your existing credentials.
+- **If you don't have an account**: Click **Create one** to set up a new Microsoft account.
