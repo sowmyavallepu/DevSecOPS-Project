@@ -3,7 +3,7 @@ Designing and implementing a robust DevSecOps pipeline to ensure the security, s
 "Leveraging best practices in DevSecOps to automate development, security testing, and deployment processes, enabling faster and more secure updates for the game.
 "Integrating security at every stage of the pipeline, from code development to deployment, to safeguard the Super Mario game against potential vulnerabilities.
 # Table Of Contents
-1. Project Overview and Objectives#project-overview-and-objectives
+1. Project Overview and Objectives #project-overview-and-objectives
 2. Required Tools and Technologies
 3. Required Tools and Technologies
 4. Project Scope and Goals
