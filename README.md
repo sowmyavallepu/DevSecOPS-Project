@@ -36,6 +36,7 @@ Ensure the following prerequisites are met:
 - **GitHub Account:** GitHub repository with Actions enabled.
 - **SonarQube Account:** Active SonarQube instance for running SAST scans.
 - **Basic Knowledge of:**
+
      ○ **DevSecOps and CI/CD Pipelines** (GitHub Actions or similar tools).
   
      ○ **AKS** (Basic Kubernetes concepts).
@@ -46,11 +47,19 @@ Ensure the following prerequisites are met:
   
 
 ## ⚙️ Tools and Technologies Used
+
 **Azure Kubernetes Service (AKS)**
+
 **Docker and Docker Hub**
+
 **SonarQube for SAST Scans**
+
 **GitHub Actions for CI/CD**
+
 **Grype for Container Security**
 
 ## 🏗️ Pipeline Architecture
+
+
+![Alt text](C:\Users\vsowm\OneDrive\Pictures\Screenshots\Screenshot (3).png)
 
