@@ -62,6 +62,13 @@ Ensure the following prerequisites are met:
 
 ![image alt](https://github.com/sowmyavallepu/DevSecOPS-Project/blob/af5f3afc552ed6117cf2268a3358e0bfb5b5f6d8/Screenshot%20(3).png)
 
+## Pipeline Workflow:
 
-
+- **Code Commit:** Push code changes to GitHub.
+- **Build & Test:** Run unit tests and static code analysis using SonarQube.
+- **Containerization:** Build and push Docker images to Docker Hub.
+- **Security Scanning:** Scan images with Grype.
+- **Deployment:** Deploy to AKS using ArgoCD.
+## 🗂️Modules
+# Module 1: DevSecOps Case Study and Prerequisites
 
