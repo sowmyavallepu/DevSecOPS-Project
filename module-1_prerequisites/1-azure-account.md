@@ -32,7 +32,7 @@ To set up a free Azure cloud account for hosting resources required for your Dev
 ### 5. Verify Your Identity
 - Depending on the method you selected, enter the verification code you received via SMS or voice call to confirm your identity.
 
-[verify](https://github.com/user-attachments/assets/8876b9f1-f38d-4b8c-ba27-db97f2578af8)
+![verify](https://github.com/user-attachments/assets/8876b9f1-f38d-4b8c-ba27-db97f2578af8)
 
 
 
