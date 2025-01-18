@@ -33,4 +33,21 @@ Ensure the following prerequisites are met:
 - **Azure Kubernetes Service (AKS):** Knowledge of Kubernetes in Azure.
 - **Docker Hub Account:** For managing container images.
 - **Docker CLI:** Installed on your local machine. [Get Docker CLI Here](https://www.docker.com/products/docker-desktop/).
+- **GitHub Account:** GitHub repository with Actions enabled.
+- **SonarQube Account:** Active SonarQube instance for running SAST scans.
+- **Basic Knowledge of:**
+     ○ **DevSecOps and CI/CD Pipelines** (GitHub Actions or similar tools).
+     ○ **AKS** (Basic Kubernetes concepts).
+     ○ **Docker** (Creating Dockerfiles, building images).
+     ○ **JavaScript** (Modifying the Infinite Mario game).
+  
+
+## ⚙️ Tools and Technologies Used
+**Azure Kubernetes Service (AKS)**
+**Docker and Docker Hub**
+**SonarQube for SAST Scans**
+**GitHub Actions for CI/CD**
+**Grype for Container Security**
+
+## 🏗️ Pipeline Architecture
 
