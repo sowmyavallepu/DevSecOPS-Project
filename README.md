@@ -37,8 +37,11 @@ Ensure the following prerequisites are met:
 - **SonarQube Account:** Active SonarQube instance for running SAST scans.
 - **Basic Knowledge of:**
      ○ **DevSecOps and CI/CD Pipelines** (GitHub Actions or similar tools).
+  
      ○ **AKS** (Basic Kubernetes concepts).
+  
      ○ **Docker** (Creating Dockerfiles, building images).
+  
      ○ **JavaScript** (Modifying the Infinite Mario game).
   
 
