@@ -21,3 +21,18 @@ To set up a free Azure cloud account for hosting resources required for your Dev
 
 ![image](https://github.com/user-attachments/assets/bb1628bb-d591-4cee-823c-a11b2a707c10)
 
+### 4. Fill Out Required Information
+- Complete the registration form with the following details:
+  - **First Name**
+  - **Last Name**
+  - **Phone Number** (You may choose to receive a verification code via SMS or voice call)
+  - **Email Address** (Use your Microsoft account email)
+  - **Country/Region**
+ 
+### 5. Verify Your Identity
+- Depending on the method you selected, enter the verification code you received via SMS or voice call to confirm your identity.
+
+[verify](https://github.com/user-attachments/assets/8876b9f1-f38d-4b8c-ba27-db97f2578af8)
+
+
+
