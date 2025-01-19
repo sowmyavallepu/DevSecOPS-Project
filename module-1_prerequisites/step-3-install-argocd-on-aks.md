@@ -12,4 +12,10 @@ az aks get-credentials ---resource-group <demo-resource-group> --name <demoKuber
   - `--resource-group <resource-group>` specifies the Azure resources group where your AKS cluster is hosted.
   - `--name <aks-cluster-name>` is the name of ther AKS cluster you want to connect to.
 
-**step:2: Cre
+**Step:2: Create a Namespace argocd
+
+```bash
+kubectl create namespace argocd
+```
+- **Purpose**: Creates a separate namespace in kuberenetes called `argocd` .
+- 
