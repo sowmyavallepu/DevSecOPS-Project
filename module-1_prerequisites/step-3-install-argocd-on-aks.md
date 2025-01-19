@@ -8,8 +8,8 @@ az aks get-credentials ---resource-group <demo-resource-group> --name <demoKuber
 
 - **Purpose**: Connects your local machine to your AKS (Azure Kubernetes Service) cluster by retrieving the cluster credentials.
 - **Explanation**:
-- `az aks get-credentials` is an Azure CLI command that fetches and configures the kubectl credentials.
-- `--resource-group <resource-group>` specifies the Azure resources group where your AKS cluster is hosted.
-- `--name <aks-cluster-name>` is the name of ther AKS cluster you want to connect to.
+  - `az aks get-credentials` is an Azure CLI command that fetches and configures the kubectl credentials.
+  - `--resource-group <resource-group>` specifies the Azure resources group where your AKS cluster is hosted.
+  - `--name <aks-cluster-name>` is the name of ther AKS cluster you want to connect to.
 
 **step:2: Cre
