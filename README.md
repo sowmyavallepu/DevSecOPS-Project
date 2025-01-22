@@ -6,9 +6,9 @@ Designing and implementing a robust DevSecOps pipeline to ensure the security, s
 "Integrating security at every stage of the pipeline, from code development to deployment, to safeguard the Super Mario game against potential vulnerabilities.
 # Table Of Contents
 1. [Project Introduction](Project-Introduction)
-2. Project Prerequisties
-3. Tools and Technologies Used
-4. DevSecOps Pipeline Design
+2. [Project Prerequisties](Project-Prerequisties)
+3. [Tools and Technologies Used](Tools-and-Technologies-Used)
+4. [DevSecOps Pipeline Design](
 5. Detailed Implementation Process
 6. Repository Cloning and Setuu
 7. GitHub Actions Configuration
@@ -72,4 +72,9 @@ Ensure the following prerequisites are met:
 - **Security Scanning:** Scan images with Grype.
 - **Deployment:** Deploy to AKS using ArgoCD.
 ## 🗂️Modules
-# Module 1: DevSecOps Case Study and Prerequisites
+
+### **Module 1: DevSecOps Case Study and Prerequisites**
+- [Step 1: Creating Azure Free Trial](./module_1_prerequisites/1-azure-account.md)
+- [Step 2: Creating AKS Cluster](./module_1_prerequisites/step-2-creating-AKS-cluster.md)
+- [Step 3: Install ArgoCD on AKS](./module_1_prerequisites/Step-3-install-argocd-on-aks.md)
+
