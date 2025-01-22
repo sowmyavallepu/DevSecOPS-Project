@@ -78,3 +78,36 @@ Ensure the following prerequisites are met:
 - [Step 2: Creating AKS Cluster](./module-1_prerequisites/step-2-creating-AKS-Cluster.md)
 - [Step 3: Install ArgoCD on AKS](./module-1_prerequisites/step-3-install-argocd-on-aks.md)
 
+### **Module 2: Integrate Static Application Security Testing (SAST) with SonarQube**
+- [Step 1: Install SonarQube on Azure VM Instance](module-2/step-8-install-sonarqube-azure-vm.md)
+- [Step 2: Clone Mario GitHub Repository](module-2/step-9-clone-mario-repo.md)
+- [Step 3: Integrate SonarQube for SAST - Part 1](module-2/step-10-integrate-sonarqube-sast-part1.md)
+- [Step 4: Integrate SonarQube for SAST - Part 2](module-2/step-11-integrate-sonarqube-sast-part2.md)
+- [Step 5: Integrate SonarQube for SAST - Part 3](module-2/step-12-integrate-sonarqube-sast-part3.md)
+- [Step 6: Implement Quality Gates for SAST](module-2/step-14-implement-quality-gates.md)
+
+### **Module 3: Dockerization of Mario Game Project**
+- [Step 1: Create DockerHub Account](module-3/step-1-create-dockerhub-account.md)
+- [Step 2: Write a Dockerfile for Mario Game](module-3/step-2-write-dockerfile.md)
+- [Step 3: Build and Push Mario Docker Image - Part 1](module-3/step-3-build-push-mario-docker-image-part1.md)
+- [Step 4: Build and Push Mario Docker Image - Part 2](module-3/step-4-build-push-mario-docker-image-part2.md)
+- [Step 5: Implement Dynamic Tagging for Mario Docker Image](module-3/step-5-implement-dynamic-tagging.md)
+
+### **Module 4: Implement Container Scan for Mario Game**
+- [Step 1: Implement Container Scan - Part 1](module-4/step-1-Implement-conatiner-scan.md)
+- [Step 2: Implement Container Scan - Part 2](module-4/step-2-Implement-container-scan-part-2.md)
+
+### **Module 5: Deploy Mario Docker Game on Azure Kubernetes Cluster**
+- [Step 1: Deploy Mario Game with ArgoCD - Part 1](module-5/Deploy-Mario-Game-on-Azure-Kubernetes-Cluster-using-ArgoCD-Part-1.md)
+- [Step 2: Deploy Mario Game with ArgoCD - Part 2](module-5/Deploy-Mario-Game-on-Azure-Kubernetes-Cluster-using-ArgoCD-Part-2.md)
+
+### **Module 6: Implement End-to-End DevSecOps Pipeline for Mario Game**
+- [Step 1: Understanding the Pipeline](module_6/step-1-understanding-end-to-end-devsecops-pipeline-for-mario-game.md)
+- [Step 2: Hands-On: Part 1](module_6/step-2-hands-on-part-1-implement-end-to-end-devsecops-pipeline-for-mario-game.md)
+- [Step 3: Hands-On: Part 2](module_6/step-3-hands-on-part-2-implement-end-to-end-devsecops-pipeline-for-mario-game.md)
+
+---
+
+## 🎯 Conclusion
+
+In this project, we successfully built a complete DevSecOps pipeline for deploying the Infinite Mario Game. By integrating security at every stage of the CI/CD pipeline, from SAST to container security scans and seamless deployment with AKS, we demonstrated how DevSecOps practices help build secure, scalable applications. This ensures a secure and automated software development lifecycle that allows for continuous improvements and rapid delivery without compromising security.
