@@ -6,11 +6,11 @@
 
 # Create a Virtual Machine in Azure
 
-Step 1: Sign in to Azure portal
+Step 1: Sign in to Azure Portal
 
-Step 2: Create a Virtual manchine 
+Step 2: Create a Virtual Machine
 
-Step 3: Configure Project  Details
+Step 3: Configure Project Details
 
 Step 4: Configure Image and Size
 
@@ -58,6 +58,55 @@ Summary of Commands
 #### Step 4: Configure Image and Size
 
 ![Screenshot (22)](https://github.com/user-attachments/assets/a5e78221-2fc6-403d-9617-083a2df3d131)
+
+1. **Image**: From the dropdown, select **Ubuntu Pro 24.04 LTS - x64 Gen2** (default).
+2. **VM architecture**: Select **x64** (default).
+3. **Size**: Click on **See all sizes**. Choose **Standard_B2s - 2 vCPUs, 4 GiB memory** (default).
+4. **Enable Hibernation**: Ensure this is disabled as it does not support Trusted launch for Linux images (default).
+
+#### Step 5: Configure Administrator Account
+
+
+
+Authentication type: Select Password instead of SSH public key.
+Username: Enter azureuser (default).
+Password: Enter a strong password (ensure it meets Azure's password complexity requirements).
+
+#### Step 6: Configure Inbound Port Rules
+1. **Public inbound ports**: Select **Allow selected ports** (default).
+2. **Select inbound ports**: Choose **SSH (22)** (default).
+
+#### Step 7: Review and Create
+1. After configuring all settings, click on **Review + create**.
+2. Review your settings and ensure everything is correct.
+3. Click on **Create** to provision the virtual machine.
+
+#### Step 8: Access Your Virtual Machine
+Once the VM is created, navigate to the Virtual machines section.
+
+Click on sonar-vm to view its details.
+
+To connect via SSH, use a terminal or SSH client. Run the following command (replace <public-ip> with the actual public IP of your VM):
+
+bash
+Copy code
+ssh azureuser@<public-ip>
+Note: You will be prompted to enter the password you set during the VM creation.
+
+### Conclusion
+You have successfully created a virtual machine in Azure named `sonar-vm` within the `demo-resource-group`, using default settings for all other sections. You can now access it using SSH and begin your work with this VM.
+
+ 
+
+### Now we need to Configure Inbound Port Rules for Your Azure VM
+
+#### Step 1: Navigate to Your Virtual Machine
+
+1. In the left-hand menu, click on **Virtual machines**.
+2. From the list of virtual machines, click on the name of your VM (e.g., **sonar-vm**).
+
+#### Step 2: Go to Networking Settings
+![Screenshot (26)](https://github.com/user-attachments/assets/43520793-0f87-4523-b63e-ab6d3007cf6d)
 
 1. In the left-hand menu of your VM's overview page, scroll down and click on **Networking**.
 
