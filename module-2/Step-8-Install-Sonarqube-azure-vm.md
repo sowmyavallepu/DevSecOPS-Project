@@ -46,8 +46,6 @@ Summary of Commands
 
 #### Step 3: Configure Project Details
 
-#### Step 3: Configure Project Details
-
 ![Screenshot (20)](https://github.com/user-attachments/assets/8d17b505-70a8-44ee-a350-10acf543de0f)
 
 1. **Subscription**: Select your subscription (e.g., **Free Trial**).
