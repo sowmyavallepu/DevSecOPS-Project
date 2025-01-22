@@ -61,49 +61,59 @@ Summary of Commands
 
 ![Screenshot (22)](https://github.com/user-attachments/assets/a5e78221-2fc6-403d-9617-083a2df3d131)
 
-1. **Image**: From the dropdown, select **Ubuntu Pro 24.04 LTS - x64 Gen2** (default).
-2. **VM architecture**: Select **x64** (default).
-3. **Size**: Click on **See all sizes**. Choose **Standard_B2s - 2 vCPUs, 4 GiB memory** (default).
-4. **Enable Hibernation**: Ensure this is disabled as it does not support Trusted launch for Linux images (default).
+1. In the left-hand menu of your VM's overview page, scroll down and click on **Networking**.
 
-#### Step 5: Configure Administrator Account
+#### Step 3: Configure Inbound Port Rules
 
-Authentication type: Select Password instead of SSH public key.
-Username: Enter azureuser (default).
-Password: Enter a strong password (ensure it meets Azure's password complexity requirements).
+![Screenshot (27)](https://github.com/user-attachments/assets/4a8fd619-d727-4698-9887-0dfa3efee41b)
 
-#### Step 6: Configure Inbound Port Rules
-1. **Public inbound ports**: Select **Allow selected ports** (default).
-2. **Select inbound ports**: Choose **SSH (22)** (default).
+1. In the **Networking** pane, you will see the **Inbound port rules** section.
+2. By default, Azure may have created a rule for SSH (port 22). To add an additional rule, click on **Add inbound port rule**.
 
-#### Step 7: Review and Create
-1. After configuring all settings, click on **Review + create**.
-2. Review your settings and ensure everything is correct.
-3. Click on **Create** to provision the virtual machine.
+#### Step 4: Set Up the New Inbound Port Rule
 
-#### Step 8: Access Your Virtual Machine
-Once the VM is created, navigate to the Virtual machines section.
+![Screenshot (30)](https://github.com/user-attachments/assets/9a5f3af2-016b-410e-a8bd-4ed4c9fd31a4)
 
-Click on sonar-vm to view its details.
+1. In the **Add inbound security rule** pane, configure the following settings:
+   - **Destination port ranges**: Enter `9000`.
+   - **Protocol**: Select **TCP** from the dropdown menu.
+   - **Name**: Optionally, you can enter a name for this rule (e.g., `TCP-9000`).
+   - **Priority**: Leave this at the default or adjust as needed (lower numbers indicate higher priority).
+   - **Action**: Ensure this is set to **Allow**.
 
-To connect via SSH, use a terminal or SSH client. Run the following command (replace <public-ip> with the actual public IP of your VM):
+2. After entering the necessary information, click on **Add** to create the inbound port rule.
 
-bash
-Copy code
-ssh azureuser@<public-ip>
-Note: You will be prompted to enter the password you set during the VM creation.
+#### Step 5: Verify the Inbound Port Rule
+1. After adding the rule, you will return to the **Networking** pane.
+2. Under **Inbound port rules**, verify that the new rule for TCP port `9000` is listed alongside the existing rules.
 
 ### Conclusion
-You have successfully created a virtual machine in Azure named `sonar-vm` within the `demo-resource-group`, using default settings for all other sections. You can now access it using SSH and begin your work with this VM.
+You have successfully configured the inbound port rules for your Azure VM, allowing access on TCP port 9000 in addition to SSH (port 22). This configuration enables external traffic to reach your applications that may be running on port 9000, facilitating better functionality and access. 
+Here’s a detailed, step-by-step guide to set up SonarQube on a Dockerized environment, using a `docker-compose.yml` file that includes both SonarQube and PostgreSQL as a database.
 
- ### Now we need to Configure Inbound Port Rules for Your Azure VM
+---
+# Setting Up SonarQube on an Azure Virtual Machine for Continuous Code Quality Analysis
+**Title: Setting Up SonarQube on an Azure Virtual Machine for Continuous Code Quality Analysis**
 
-#### Step 1: Navigate to Your Virtual Machine
+In this lab, we’ll deploy SonarQube on an Azure Virtual Machine to enable continuous code quality analysis and ensure code meets specific security, maintainability, and reliability standards. SonarQube, a popular tool for static code analysis, helps detect bugs, vulnerabilities, and code smells early in the development process. 
 
-1. In the left-hand menu, click on **Virtual machines**.
-2. From the list of virtual machines, click on the name of your VM (e.g., **sonar-vm**).
+We will:
 
-#### Step 2: Go to Networking Settings
+1. Set up an Azure Virtual Machine as the environment for SonarQube.
+2. Configure the VM with the necessary dependencies for SonarQube.
+3. Install and run SonarQube on the VM.
+4. Verify SonarQube access and configuration for integration into CI/CD pipelines.
+
+By the end of this lab, we’ll have a fully functional SonarQube setup ready for integration into a DevSecOps workflow, allowing automated quality checks and security analysis for code as part of the CI/CD pipeline. This Azure-based setup serves as a scalable solution for enterprise-level quality and security enforcement, reducing risks associated with code deployment.
+
+### Step 1: Verify System Requirements
+
+1. **RAM**: Make sure the instance has at least **4 GB of RAM**.
+2. **Port 9000**: Ensure **port 9000 is open** as this is the default port for accessing SonarQube.
+
+---
+
+### Step 2: Configure System Settings
 
 SonarQube requires certain kernel settings for optimal operation. You’ll modify the system configuration file to add these settings.
 
@@ -172,7 +182,6 @@ The `docker-compose.yml` file will define the configuration for both SonarQube a
    sudo vi docker-compose.yml
    ```
    
-
 2. **Copy and paste the following content into the file**:
    ```yaml
    version: "3"
@@ -292,6 +301,3 @@ sudo docker-compose logs --follow
 ```
 
 This completes the setup of SonarQube using Docker Compose, with PostgreSQL as the database. You should now have a fully operational SonarQube instance accessible via your browser.
-
-
-
