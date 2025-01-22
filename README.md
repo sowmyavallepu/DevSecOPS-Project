@@ -99,7 +99,7 @@ Ensure the following prerequisites are met:
 - [step 2: Implement Container Scan - Part 2](module-4/step-2-Implement-container-scan-part-2.md)
 
 ### **Module 5: Deploy Mario Docker Game on Azure Kubernetes Cluster**
-- [Step 1: Deploy Mario Game with ArgoCD - Part 1](module-5/Deploy-Mario-Game-On-Azure-Kubernetes-Cluster-using-argoCD-Part-2.md)
+- [Step 1: Deploy Mario Game with ArgoCD - Part 1](module-5/Deploy-Mario-Game-On-Azure-Kubernetes-Cluster-using-argoCd-Part-2.md)
 - [Step 2: Deploy Mario Game with ArgoCD - Part 2](module-5/Deploy-Mario-Game-on-Azure-Kubernetes-Cluster-using-ArgoCD-Part-1.md)
 
 ### **Module 6: Implement End-to-End DevSecOps Pipeline for Mario Game**
