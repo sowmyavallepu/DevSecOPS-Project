@@ -79,17 +79,17 @@ Ensure the following prerequisites are met:
 - [Step 3: Install ArgoCD on AKS](./module-1_prerequisites/step-3-install-argocd-on-aks.md)
 
 ### **Module 2: Integrate Static Application Security Testing (SAST) with SonarQube**
-- [Step 1: Install SonarQube on Azure VM Instance](module-2/step-8-install-sonarqube-azure-vm.md)
-- [Step 2: Clone Mario GitHub Repository](module-2/step-9-clone-mario-repo.md)
+- [Step 1: Install SonarQube on Azure VM Instance](module-2/step-8-install-Sonarqube-azure-vm.md)
+- [Step 2: Clone Mario GitHub Repository](module-2/step-9-Clone-mario-repo.md)
 - [Step 3: Integrate SonarQube for SAST - Part 1](module-2/step-10-integrate-sonarqube-sast-part1.md)
 - [Step 4: Integrate SonarQube for SAST - Part 2](module-2/step-11-integrate-sonarqube-sast-part2.md)
 - [Step 5: Integrate SonarQube for SAST - Part 3](module-2/step-12-integrate-sonarqube-sast-part3.md)
 - [Step 6: Implement Quality Gates for SAST](module-2/step-14-implement-quality-gates.md)
 
 ### **Module 3: Dockerization of Mario Game Project**
-- [Step 1: Create DockerHub Account](module-3/step-1-create-dockerhub-account.md)
+- [Step 1: Create DockerHub Account](module-3/step-1-Create-dockerhub-account.md)
 - [Step 2: Write a Dockerfile for Mario Game](module-3/step-2-write-dockerfile.md)
-- [Step 3: Build and Push Mario Docker Image - Part 1](module-3/step-3-build-push-mario-docker-image-part1.md)
+- [Step 3: Build and Push Mario Docker Image - Part 1](module-3/step-3-build-mario-docker-image-part1.md)
 - [Step 4: Build and Push Mario Docker Image - Part 2](module-3/step-4-build-push-mario-docker-image-part2.md)
 - [Step 5: Implement Dynamic Tagging for Mario Docker Image](module-3/step-5-implement-dynamic-tagging.md)
 
