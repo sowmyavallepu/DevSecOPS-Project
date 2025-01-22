@@ -76,5 +76,5 @@ Ensure the following prerequisites are met:
 ### **Module 1: DevSecOps Case Study and Prerequisites**
 - [Step 1: Creating Azure Free Trial](./module-1_prerequisites/1-azure-account.md)
 - [Step 2: Creating AKS Cluster](./module-1_prerequisites/step-2-creating-AKS-Cluster.md)
-- [Step 3: Install ArgoCD on AKS](./module-1_prerequisites/Step-3-install-argocd-on-aks.md)
+- [Step 3: Install ArgoCD on AKS](./module-1_prerequisites/step-3-install-argocd-on-aks.md)
 
