@@ -8,8 +8,8 @@ Designing and implementing a robust DevSecOps pipeline to ensure the security, s
 1. [Project Introduction](Project-Introduction)
 2. [Project Prerequisties](Project-Prerequisties)
 3. [Tools and Technologies Used](Tools-and-Technologies-Used)
-4. [DevSecOps Pipeline Design](
-5. Detailed Implementation Process
+4. [Pipeline Architecture](Pipeline-Architecture)
+5. [Step-by-Step Implementation](#step-by-step-implementation)
 6. Repository Cloning and Setuu
 7. GitHub Actions Configuration
 8. SonarQube Setup for Static Application Security Testing (SAST)
