@@ -1,4 +1,6 @@
 # Developing a Comprehensive End-to-End DevSecOps Pipeline for Super Mario Game
+
+![screenshot](https://github.com/sowmyavallepu/DevSecOPS-Project/blob/9ad0ca7bf44acf0aff2a6da3b4cd2a8b344069b2/Screenshot%20(7).png)
 Designing and implementing a robust DevSecOps pipeline to ensure the security, scalability, and continuous integration of the Super Mario game.
 "Leveraging best practices in DevSecOps to automate development, security testing, and deployment processes, enabling faster and more secure updates for the game.
 "Integrating security at every stage of the pipeline, from code development to deployment, to safeguard the Super Mario game against potential vulnerabilities.
