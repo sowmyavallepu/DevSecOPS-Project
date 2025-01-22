@@ -10,14 +10,16 @@ Designing and implementing a robust DevSecOps pipeline to ensure the security, s
 3. [Tools and Technologies Used](Tools-and-Technologies-Used)
 4. [Pipeline Architecture](Pipeline-Architecture)
 5. [Step-by-Step Implementation](#step-by-step-implementation)
-6. Repository Cloning and Setuu
-7. GitHub Actions Configuration
-8. SonarQube Setup for Static Application Security Testing (SAST)
-9. Containerizing the Mario Game with Docker
-10. Dynamic Tagging and Version Control Implementation
-11. Deployment to Azure Kubernetes Service (AKS) Using ArgoCD
-12. End-to-End Pipeline Validation and Testing
-13. Summary and Key Takeaways
+6. [Clone the Repository](#clone-the-repository)
+7. [Set Up GitHub Actions](#set-up-github-actions)
+8. [Configure SonarQube for SAST](#configure-sonarqube-for-sast)
+9. [Dockerize the Mario Game](#dockerize-the-mario-game)
+10. [Implement Dynamic Tagging](#implement-dynamic-tagging)
+11. [Deploy to AKS with ArgoCD](#deploy-to-aks-with-argocd)
+12. [Validate End-to-End Pipeline Execution](#validate-end-to-end-pipeline-execution)
+13. [Conclusion](#conclusion)
+
+---
 
 ## 🎮Project Introduction
 Secure DevSecOPS Pipeline for Infinite Mario Game
