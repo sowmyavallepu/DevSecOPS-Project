@@ -10,7 +10,7 @@
 
 1. Open Visual Studio Code.
 2. Navigate to the project folder where you cloned the GitHub repository:
-   ```plaintext
+   ```bash
    C:\Dev-Sec\gitops-practice-devsecops-sonarqube-sast-scan-supermario-repo
    ```
 3. Verify you’re in the correct directory.
