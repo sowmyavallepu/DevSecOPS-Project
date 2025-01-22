@@ -84,8 +84,8 @@ Ensure the following prerequisites are met:
 - [Step 3: Integrate SonarQube for SAST - Part 1](module-2/Step-10-integrate-sonarqube-sast-part1.md)
 - [Step 4: Integrate SonarQube for SAST - Part 2](module-2/Step-11-integrate-sonarqube-sast-part2.md)
 - [Step 5: Integrate SonarQube for SAST - Part 3](module-2/Step-12-integrate-sonarqube-sast-part3.md)
-- [Step-6: Integrate Sonarqube for SAST - part-4](module-2/Step-13-integrate-sonarqube-sast-part4.md)
-- [Step 6: Implement Quality Gates for SAST](module-2/Step-14-implement-quality-gates.md)
+- [Step 6: Integrate Sonarqube for SAST - part-4](module-2/Step-13-integrate-sonarqube-sast-part4.md)
+- [Step 7: Implement Quality Gates for SAST](module-2/Step-14-implement-quality-gates.md)
 
 ### **Module 3: Dockerization of Mario Game Project**
 - [Step 1: Create DockerHub Account](module-3/step-1-Create-dockerhub-account.md)
